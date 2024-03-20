@@ -23,7 +23,7 @@ stage ('UploadArtifact into Nexus'){
 sh " $mavenHome/bin/mvn deploy " 
 }    
 
-*/
+/*
 //Deploy App to into tomcat server
 stage('DeployintoAppTomcat'){
 sshagent(['c953456e-7d10-4366-86bc-6fcc369681e0']) {
